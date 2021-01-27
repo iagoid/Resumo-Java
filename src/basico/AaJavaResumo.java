@@ -35,7 +35,8 @@ public class AaJavaResumo {
         Atalhos IntelliJ:
         Alt + insert = criar coisas automaticamente
         CTRL + alt + L = organizar código
-        shift + F10 =  executa código
+        CTRL + shift + F10 =  executa código
+        shift + F10 =  executa  ultimo código executado
         */
 
     }
