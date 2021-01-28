@@ -2,7 +2,7 @@ package javacore.modificadorestatico.classes;
 
 public class ClienteBlocoInicializacao {
     private static int[] parcelas;
-    //    0 - Bloco de inicialização é executado a JVM carregar a classe
+    //    0 - Bloco de inicialização estático é executado a JVM carregar a classe
     //    1 - alocado espaço a memória para objeto criado
     //    2 - Cada atributo de classe é criado com seus valores default ou os declarados
     //    3 - bloco de inicialização é executado
