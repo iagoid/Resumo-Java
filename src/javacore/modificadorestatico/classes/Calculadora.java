@@ -4,7 +4,7 @@ package javacore.modificadorestatico.classes;
 public class Calculadora {
 
     // NÃO utilizo nenhum atributo de classe
-    // Apenas passo valores e reporno
+    // Apenas passo valores e retorno
     // Ou seja: PODE ser um METODO ESTÁTICO
 
     public static void somaDoisNumeros() {
