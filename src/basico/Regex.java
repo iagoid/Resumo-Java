@@ -7,6 +7,7 @@ public class Regex {
     public static void main(String[] args) {
 
         // https://www.devmedia.com.br/conceitos-basicos-sobre-expressoes-regulares-em-java/27539
+        // https://medium.com/@alexandreservian/regex-um-guia-pratico-para-express%C3%B5es-regulares-1ac5fa4dd39f
 
 
         String fonte = "Iago Ivanir Dalmolin --- iagoid01@gmail.com";

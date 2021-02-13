@@ -11,15 +11,16 @@ public class Estudante {
 //    não coloque o java automaticaamente cria um, que não faz nada
 //    Neste código eu defino que não podemos criar Estudante sem matricula, nome e notas
 
+
     public Estudante(String matricula, String nome, double[] notas) {
         this.matricula = matricula;
         this.nome = nome;
         this.notas = notas;
     }
 
-//    Aqui eu utilizo o metodo de sobrecarga para chamar o construtor
-//    SÓ um CONSTRUTOR pode chamar outro CONSTRUTOR, nunca posso chama-los dentro de métodos
-//    Obrigatoriamente essa chamada precisa ocorrer na PRIMEIRA LINHA
+    //    Aqui eu utilizo o metodo de sobrecarga para chamar o construtor
+    //    SÓ um CONSTRUTOR pode chamar outro CONSTRUTOR, nunca posso chama-los dentro de métodos
+    //    Obrigatoriamente essa chamada precisa ocorrer na PRIMEIRA LINHA
     public Estudante(String matricula, String nome, double[] notas, String dataMatricula) {
         this(matricula, nome, notas);
         this.dataMatricula = dataMatricula;
@@ -32,12 +33,13 @@ public class Estudante {
     }
 
     public void imprime() {
-        System.out.println(this.matricula);
-        System.out.println(this.nome);
+        System.out.println("Matricula: " + this.matricula);
+        System.out.println("Nome: " + this.nome);
+        System.out.print("Notas: ");
         for (double nota : this.notas) {
-            System.out.println(nota + " ");
+            System.out.print(nota + " | ");
         }
-        System.out.println("------------------");
+        System.out.println("\n------------------");
     }
 
     public String getMatricula() {
